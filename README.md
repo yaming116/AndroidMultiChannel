@@ -1,6 +1,21 @@
 # AndroidMultiChannel
 安卓多渠道打包，java版本的
 
+项目说明: [http://www.jianshu.com/p/7ec5d5b081d2](http://www.jianshu.com/p/7ec5d5b081d2)
+
+python 版本参见 [AndroidMultiChannelBuildTool](https://github.com/GavinCT/AndroidMultiChannelBuildTool)
+
+# 使用方法
+
+打包好的可执行文件在 jar 目录下面，进入 jar/bin 运行  androidmultichannel 配置文件目录
+
+
+# 获取渠道信息方法
+
+```java
+    ChannelUtil.getChannel(Context context)//同样来自 AndroidMultiChannelBuildTool
+```
+
 
 
 # License
